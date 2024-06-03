@@ -12,6 +12,7 @@ import Category from "./pages/Category.jsx";
 const App = () => (
     <>
         <BrowserRouter>
+            <Home/>
             <Routes>
                 <Route path="/WebFilm/" element={<Home/>} />
                 <Route path="/WebFilm/login" element={<Login/>}/>
