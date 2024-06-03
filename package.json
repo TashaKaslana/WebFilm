@@ -1,7 +1,7 @@
 {
   "name": "ver2",
   "homepage": "https://tashakaslana.github.io/WebFilm/",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
