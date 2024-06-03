@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .navItem {
+        @apply container flex-none w-40 h-7 relative text-center
+    }
+
+    /*.navItem-text {*/
+    /*    @apply  text-center hover:text-red-600*/
+    /*}*/
+
+    .navItem-menu {
+        @apply absolute w-full flex-col flex-1 top-6
+        scale-0 group-hover:scale-100
+        text-center border-4 border-amber-300 border-double rounded-lg
+    }
+
+    .navItem-button {
+        @apply shadow-2xl text-blue-600 hover:bg-indigo-300 hover:text-red-600
+        /*transition duration-100 ease-in-out*/
+    }
+
+    @layer background {
+        .background {
+            background: linear-gradient(to bottom, rgba(22,139,167,255), rgba(0,220,239,255));
+        }
+    }
+}

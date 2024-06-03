@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: bisque;
+}
+
+.header {
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.filters, .quick_buy, .movies, .now_showing {
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.filters select, .quick_buy select {
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+
+.movie {
+    display: flex;
+    margin-bottom: 20px;
+
+}
+
+.movie img {
+    width: 150px;
+    height: 220px;
+    margin-right: 20px;
+}
+
+.movie_info {
+    flex-grow: 1;
+}
+
+.movie_info h3 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.movie_info p {
+    margin: 10px 0;
+    color: #666;
+}
+
+.now_showing img {
+    width: 250px;
+
+}
+
+.rating {
+    background-color: #ffdd57;
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 5px;
+}
+
+.movie {
+    display: flex;
+}
+
+.ppa {
+    display: flex;
+}
+
+.buton1 {
+    --width: 75px;
+    --height: 35px;
+    --tooltip-height: 35px;
+    --tooltip-width: 90px;
+    --gap-between-tooltip-to-button: 18px;
+    --button-color: #aac3f0;
+    --tooltip-color: #fff;
+    width: var(--width);
+    height: var(--height);
+    background: var(--button-color);
+    position: relative;
+    text-align: center;
+    border-radius: 0.45em;
+    font-family: "Arial";
+    margin-right: 10px;
+
+
+}
+
+.ppa p {
+    margin: 5px;
+}

@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GG</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: bisque;
+        }
+
+        .header {
+            background-color: #fff;
+            padding: 10px 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .filters, .quick-buy, .movies, .now-showing {
+            background-color: #fff;
+            margin-top: 20px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .filters select, .quick-buy select {
+            padding: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+
+        .movie {
+            display: flex;
+            margin-bottom: 20px;
+
+        }
+
+        .movie img {
+            width: 150px;
+            height: 220px;
+            margin-right: 20px;
+        }
+
+        .movie-info {
+            flex-grow: 1;
+        }
+
+        .movie-info h3 {
+            margin: 0;
+            font-size: 20px;
+        }
+
+        .movie-info p {
+            margin: 10px 0;
+            color: #666;
+        }
+
+        .now-showing img {
+            width: 250px;
+
+        }
+
+        .rating {
+            background-color: #ffdd57;
+            padding: 10px;
+            text-align: center;
+            font-size: 24px;
+            border-radius: 5px;
+        }
+
+        .movie {
+            display: flex;
+        }
+
+        .ppa {
+            display: flex;
+        }
+
+        .buton1 {
+            --width: 75px;
+            --height: 35px;
+            --tooltip-height: 35px;
+            --tooltip-width: 90px;
+            --gap-between-tooltip-to-button: 18px;
+            --button-color: #aac3f0;
+            --tooltip-color: #fff;
+            width: var(--width);
+            height: var(--height);
+            background: var(--button-color);
+            position: relative;
+            text-align: center;
+            border-radius: 0.45em;
+            font-family: "Arial";
+            margin-right: 10px;
+
+
+        }
+
+        .ppa p {
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1>PHIM ĐIỆN ẢNH</h1>
+    </div>
+    <div class="filters">
+        <select>
+            <option>Thể Loại</option>
+            <option>Kinh dị</option>
+        </select>
+        <select>
+            <option>Quốc Gia</option>
+            <option>Việt Nam</option>
+        </select>
+        <select>
+            <option>Năm</option>
+            <option>2077</option>
+        </select>
+        <select>
+            <option>Đang Chiếu/Sắp Chiếu</option>
+        </select>
+        <select>
+            <option>Xem Nhiều Nhất</option>
+
+        </select>
+    </div>
+    <div class="movies">
+        <div class="container-movie">
+            <div class="movie">
+                <img src="fate_stay_night_heaven_s_feel_ii_lost_butterfly_5719.webp"
+                     alt="fate_stay_night_heaven_s_feel_ii_lost_butterfly_5719">
+                <div class="movie-info">
+                    <h3>Fate/stay night: Heaven's Feel II. Lost Butterfly</h3>
+                    <p>Emiya Shirou một chàng pháp sư trẻ tuổi học tại học viện Homurahara tại thành phố Fuyuki. Một
+                        ngày nọ, khi đang dọn dẹp võ đường ở trường cậu vô tình nhìn thấy một trận chiến của những kẻ có
+                        sức mạnh hơn người. Để tìm hiểu và ngăn cản kẻ xấu đoạt được Chén Thánh cậu quyết định tham gia
+                        cuộc chiến này để cứu những người dân vô tội. Thế nhưng, mọi chuyện bắt đầu chuyển biến xấu khi
+                        một “Bóng ma” xuất hiện và giết vô số người ở Fuyuki….</p>
+
+                    <div class="ppa">
+                        <button class="buton1"> Like</button>
+
+                        <p>👁 999999999999</p>
+                    </div>
+                </div>
+            </div>
+            <div class="movie">
+                <img src="Fate-Grand-Order-Shinsei-Entaku-Ryoiki-Camelot-Wandering-Agateram-Visual-002-20191006-1.webp"
+                     alt="Fate-Grand-Order-Shinsei-Entaku-Ryoiki-Camelot-Wandering-Agateram-Visual">
+                <div class="movie-info">
+                    <h3>Fate/Grand-Order Shinsei Entaku Ryoiki Camelot Wandering Agateram</h3>
+                    <p>Hiệp sĩ lang thang Bedivere cuối cùng cũng đến được điểm cuối của hành trình lang thang của mình.
+                        Năm 1273 Trước Công Nguyên tại Jerusalem. Đất Thánh đã trở thành một hoang mạc vĩ đại, người dân
+                        bị buộc phải rời quê hương, và có ba thế lực đang giao đấu với nhau tại nơi vùng đất hoang vu
+                        này. Hội Hiệp Sĩ Bàn Tròn đã tụ tập lại để bảo vệ Đất Thánh và Vua Sư Tử của họ. Với cả Vương
+                        quốc mình bị triệu hồi tới vùng đất xa lạ, Ozymandia, Vua Mặt Trời, đã lặng lẽ chống lại sự bạo
+                        ngược của thành trì kì lạ đó. Những người dân vùng núi, những người bảo vệ cho những nạn nhân bị
+                        tước đoạt đất đai, đang đợi chờ cơ hội kháng chiến. Để hoàn tất sứ mạng của mình, Bedivere tới
+                        Đất Thánh nơi Vua Sư Tử trị vì, nơi anh gặp vị Master cuối cùng của loài người – Ritsuka
+                        Fujimaru, cùng với Demi-Servant của anh ta – Mash Kyrielight, đã tới Jerusalem, với mục đích
+                        khôi phục lịch sử nhân loại. Bedivere tham gia cùng với Fujimaru và đồng đội để thực hiện nhiệm
+                        vụ này.</p>
+                    <div class="ppa">
+                        <button class="buton1"> Like</button>
+
+                        <p>👁 88888888888</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="movie">
+                <img src="unnamed (1).png" alt="Sword Art Online the Movie: Ordinal Scale">
+                <div class="movie-info">
+                    <h3>Sword Art Online the Movie: Ordinal Scale</h3>
+                    <p>Vào năm 2022, thế giới đã cải thiện được công nghệ Virtual Reality bởi nhà phát triển thiên tài
+                        Kayaba Akihiko. Với thiết bị NerveGear – hệ thống full-dive đầu tiên, con người đã có thể đi vào
+                        thế giới VRMMORPGs. Năm 2026, một thiết bị mới với tên “Augma” được phát triển để cạnh tranh với
+                        “tiền bối” của mình – NerveGear bằng thành công của mình, Amusphere. Augma có thể trực tiếp đeo
+                        trên người, và tất nhiên cũng không có chức năng full-dive như NerveGear, thay thế bằng cách sử
+                        dụng hệ thống Augmented Reality để đưa người chơi vào game. An toàn, thân thiện mà người chơi
+                        vẫn còn giữ được tỉnh táo cho dù mình đang ở trong game, ngay tức khắc trở thành “tôm tươi” trên
+                        thị trường. Game được phổ biến nhất ở hệ thồng này là “Ordinal Scale” (aka: OS), một game
+                        ARMMORPG độc quyền của Augma. Asuna và những người bạn đã thử chơi OS một thời gian, nên Kirito
+                        đã quyết định tham gia cùng họ. Tuy rằng có thể Ordinal Scale sẽ không hẳn là một game “vui vẻ”
+                        như họ mong đợi…</p>
+                    <div class="ppa">
+                        <button class="buton1"> Like</button>
+
+                        <p>👁 77777777</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-left">
+            <div class="quick-buy">
+                <h3>Mua Vé Nhanh</h3>
+                <select>
+                    <option>Chọn phim</option>
+                </select>
+                <select>
+                    <option>Chọn rạp</option>
+                </select>
+                <select>
+                    <option>Chọn ngày</option>
+                </select>
+            </div>
+            <div class="now-showing">
+                <h3>PHIM ĐANG CHIẾU</h3>
+                <img src="Fate-Grand-Order-Shinsei-Entaku-Ryoiki-Camelot-Wandering-Agateram-Visual-002-20191006-1.webp"
+                     alt="Fate-Grand-Order-Shinsei-Entaku-Ryoiki-Camelot-Wandering-Agateram-Visual">
+                <div class="movie-action">
+                    <h3>Fate/Grand-Order Shinsei Entaku Ryoiki Camelot Wandering Agateram</h3>
+                    <p>Hiệp sĩ lang thang Bedivere cuối cùng cũng đến được điểm cuối của hành trình lang thang của mình.
+                        Năm 1273 Trước Công Nguyên tại Jerusalem. Đất Thánh đã trở thành một hoang mạc vĩ đại, người dân
+                        bị buộc phải rời quê hương, và có ba thế lực đang giao đấu với nhau tại nơi vùng đất hoang vu
+                        này. Hội Hiệp Sĩ Bàn Tròn đã tụ tập lại để bảo vệ Đất Thánh và Vua Sư Tử của họ. Với cả Vương
+                        quốc mình bị triệu hồi tới vùng đất xa lạ, Ozymandia, Vua Mặt Trời, đã lặng lẽ chống lại sự bạo
+                        ngược của thành trì kì lạ đó. Những người dân vùng núi, những người bảo vệ cho những nạn nhân bị
+                        tước đoạt đất đai, đang đợi chờ cơ hội kháng chiến. Để hoàn tất sứ mạng của mình, Bedivere tới
+                        Đất Thánh nơi Vua Sư Tử trị vì, nơi anh gặp vị Master cuối cùng của loài người – Ritsuka
+                        Fujimaru, cùng với Demi-Servant của anh ta – Mash Kyrielight, đã tới Jerusalem, với mục đích
+                        khôi phục lịch sử nhân loại. Bedivere tham gia cùng với Fujimaru và đồng đội để thực hiện nhiệm
+                        vụ này.</p>
+                </div>
+                <div class="rating">9.7*</div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
