@@ -23,7 +23,7 @@ function SideBill({activeTab, setActiveTab, bill}) {
         } else {
             message.info('Bạn đang ở bước cuối cùng!');
             message.info('Chuyển tiếp tới trang chính trong 5s');
-            setTimeout(() => navigate('/'), 5000)
+            setTimeout(() => navigate('/WebFilm/'), 5000)
         }
     };
 

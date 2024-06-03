@@ -82,7 +82,7 @@ function Register() {
 
                 <p className="text-center mt-4">
                     Bạn đã có tài khoản rồi?{' '}
-                    <a className="text-emerald-500 hover:text-emerald-700" href="/login">
+                    <a className="text-emerald-500 hover:text-emerald-700" href="/WebFilm/login">
                         Đăng nhập
                     </a>
                 </p>

@@ -67,7 +67,7 @@ function Login() {
                 </Form>
                 <p className="text-center mt-4">
                     Bạn chưa có tài khoản?{' '}
-                    <a className="text-cyan-500 hover:text-cyan-700" href="/Register">
+                    <a className="text-cyan-500 hover:text-cyan-700" href="/WebFilm/Register">
                         Tạo tài khoản
                     </a>
                 </p>

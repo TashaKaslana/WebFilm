@@ -14,8 +14,7 @@ import PropTypes from "prop-types";
 
 function LoginButton() {
     return (
-        <Button className="w-32 h-12 flex items-center" href="/login">
-            {/* Replace with your login icon */}
+        <Button className="w-32 h-12 flex items-center" href="/WebFilm/login">
             <span className="ml-2"><Space><LoginOutlined />Đăng nhập</Space></span>
         </Button>
     );
@@ -32,11 +31,11 @@ function UserInformation({userName, setUser}) {
         {
             key: '1',
             label:
-                <a href="/account"><Space><UserOutlined />Tài khoản</Space></a>
+                <a href="/WebFilm/account"><Space><UserOutlined />Tài khoản</Space></a>
         },
         {
             key: '2',
-            label: <a href="/history"><Space><HistoryOutlined />Lịch sử</Space></a>
+            label: <a href="/WebFilm/history"><Space><HistoryOutlined />Lịch sử</Space></a>
         },
         {
             key: '3',

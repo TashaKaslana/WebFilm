@@ -24,7 +24,7 @@ ImgHover.propTypes = {
     imgTitle: PropTypes.string,
 }
 
-const presentFilms = ['/src/assets/lamnhom/Solomon_Poster.webp',
+const presentFilms = ['src/assets/imgs/Fate-Grand-Order-Shinsei-Entaku-Ryoiki-Camelot-Wandering-Agateram-Visual-002-20191006-1.webp',
     'src/assets/img/Doraemon_Vien_bao_tang_bao_boi.jpg.webp',
     'src/assets/img/750_1708503841673.jpg'
 ];

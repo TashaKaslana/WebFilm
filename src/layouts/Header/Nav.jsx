@@ -10,7 +10,7 @@ const Phim = [
     {
         key: '1',
         label: (
-            <a target="_blank" rel="noopener noreferrer" href={'/category'}>
+            <a target="_blank" rel="noopener noreferrer" href={'/WebFilm/category'}>
                 Thể loại phim
             </a>
         )
@@ -18,7 +18,7 @@ const Phim = [
     {
         key: '2',
         label: (
-            <a target="_blank" rel="noopener noreferrer" href={'/category'}>
+            <a target="_blank" rel="noopener noreferrer" href={'/WebFilm/category'}>
                 Diễn viên
             </a>
         )
@@ -26,7 +26,7 @@ const Phim = [
     {
         key: '3',
         label: (
-            <a target="_blank" rel="noopener noreferrer" href={'/category'}>
+            <a target="_blank" rel="noopener noreferrer" href={'/WebFilm/category'}>
                 Đạo diễn
             </a>
         )
@@ -71,7 +71,7 @@ const Rap = [
 export default function Nav() {
     const navigate = useNavigate();
     const handleNavigate = () => {
-        navigate('/ticket')
+        navigate('/WebFilm/ticket')
     }
 
     return (
